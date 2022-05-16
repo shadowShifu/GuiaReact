@@ -1,0 +1,35 @@
+.con{
+    position: relative;
+    z-index: 10;
+    background-color: white;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.nav ul li{
+    text-align: center;
+    flex-grow: 1;
+}
+
+.nav ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+    color: black;
+    
+}
+.nav ul li a:hover{
+    background-color: black; 
+    color: white;
+    cursor: pointer;
+}
